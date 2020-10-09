@@ -2,7 +2,7 @@
 
 Servo servo;
 
-int servoPin = 7;
+int servoPin = 9;
 int angle = 0;
 
 
