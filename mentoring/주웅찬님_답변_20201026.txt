@@ -1,0 +1,9 @@
+1. userid를 가져다가 쓰면 되는 것 아닌가요
+   => userid는 자신의 userid입니다. 남에게 보내려면 남의 userid를 알아야겠지요.
+   
+   Scenario
+   입주민 A 가 앱을 설치하고 앱을 실행 함 -> Firebase 의 A에 PlayerID 를 넣는다. (Device User ID를 얻은 값을 올려 놓으면 됨)
+   방문자 B 가 A에게 신청을 하고자 함 -> Firebase 에서 A의 PlayerID를 가져와 PlayerID를 가지고 SendToPlayer 해야 한다.
+   
+2. Argument 어쩌구 에러가 납니다.
+  => SendToPlayer의 모든 항목을 채워 넣으셔야 하는데 아마 빼먹으신 것 같습니다.
